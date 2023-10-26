@@ -20,59 +20,7 @@
     <!-- Responsive css -->
     <link rel="stylesheet" href="css/responsive.css">
 </head>
-<style>
-   h1{
-  font-size: 30px;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 300;
-  text-align: center;
-  margin-bottom: 15px;
-}
-table{
-  width:100%;
-  table-layout: fixed;
-}
-.tbl-header{
-  background-color: rgba(255,255,255,0.3);
- }
-.tbl-content{
-  height:140px;
-  overflow-x:auto;
-  margin-top: 0px;
-  
-}
-th{
-  padding: 20px 15px;
-  text-align: left;
-  font-weight: 500;
-  font-size: 12px;
-  color: #fff;
-  text-transform: uppercase;
-}
-td{
-  padding: 15px;
-  text-align: left;
-  vertical-align:middle;
-  font-weight: 300;
-  font-size: 12px;
-  color: #fff;
- 
-}
 
-
-/* for custom scrollbar for webkit browser*/
-
-::-webkit-scrollbar {
-    width: 6px;
-} 
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
-} 
-::-webkit-scrollbar-thumb {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
-}
-</style>
 <body>
     <!--[if lte IE 9]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
@@ -81,7 +29,7 @@ td{
     <!-- Add your site or application content here -->
 
 <!-- Body main wrapper start -->
-<div class="wrapper">
+<div class="body-wrapper">
 
     <!-- HEADER AREA START (header-5) -->
     <header class="ltn__header-area ltn__header-5 ltn__header-transparent--- gradient-color-4---">
@@ -424,16 +372,17 @@ td{
     <div class="ltn__utilize-overlay"></div>
 
     <!-- BREADCRUMB AREA START -->
-    <div class="ltn__breadcrumb-area text-left bg-overlay-white-30" >
+    <div class="ltn__breadcrumb-area text-left bg-overlay-white-30 "  >
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="ltn__breadcrumb-inner">
-                        <h1 class="page-title">Our Rooms</h1>
+                        <h1 class="page-title">Lotus Package</h1>
                         <div class="ltn__breadcrumb-list">
                             <ul>
                                 <li><a href="index.html"><span class="ltn__secondary-color"><i class="fas fa-home"></i></span> Home</a></li>
-                                <li>Room</li>
+                                <li><a href="Rooms.html"><span class="ltn__secondary-color"></span> Rooms</a></li>
+                                <li>Lotus Package</li>
                             </ul>
                         </div>
                     </div>
@@ -442,398 +391,48 @@ td{
         </div>
     </div>
     <!-- BREADCRUMB AREA END -->
-    
-    <!-- PRODUCT DETAILS AREA START -->
-    <div class="ltn__product-area ltn__product-gutter mb-50">
+
+    <!-- ABOUT US AREA START -->
+    <div class="ltn__about-us-area pb-115">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="ltn__shop-options">
-                        <ul>
-                            <li>
-                                <h2 >Tariff Plan Package(Inclusive Of Food)</h2>
-                            </li>
-                        </ul>
-                        <ul>
-                        
-                            <li >
-                                <div class="showing-product-number ">
-                                    <span style="color: red; font-weight: 600px; font-size: larger;">OverNight Stay Package (12Noon to 11Am)</span>
-                                 </div>
-                             </li>
-                        
-                        </ul>
-                        <ul>
-                            <li>
-                                <div class="ltn__grid-list-tab-menu ">
-                                    <div class="nav" >
-                                        
-                                        <a class="active show" data-bs-toggle="tab" href="#liton_product_grid"><i class="fas fa-th-large"></i></a>
-                                        <a data-bs-toggle="tab" href="#liton_product_list"><i class="fas fa-list"></i></a>
-                                        
-                                        <!--<a class="active show" data-bs-toggle="tab" href="#liton_product_grid"><i class="fas fa-th-large"></i></a>
-                                        <a data-bs-toggle="tab" href="#liton_product_list"><i class="fas fa-list"></i></a>-->
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                
-                               <!--<div class="short-by text-center">
-                                    <select class="nice-select">
-                                        <option>Default sorting</option>
-                                        <option>Sort by popularity</option>
-                                        <option>Sort by new arrivals</option>
-                                        <option>Sort by price: low to high</option>
-                                        <option>Sort by price: high to low</option>
-                                    </select>
-                                </div> -->
-                                <!---->
-                            </li>
-                           <!-- <li>
-                               <div class="showing-product-number">
-                                    <span>12Noon to 11Am</span>
-                                </div>
-                            </li>-->
-                        </ul>
-                        
-
+                <div class="col-lg-5 align-self-center">
+                    <div class="about-us-img-wrap ltn__img-shape-left  about-img-left">
+                        <img src="img/room/102.jpeg" alt="Image">
                     </div>
-                    <div class="tab-content">
-                        <div class="tab-pane fade active show" id="liton_product_grid">
-                            <div class="ltn__product-tab-content-inner ltn__product-grid-view">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <!-- Search Widget -->
-                                        <!--<div class="ltn__search-widget mb-30">
-                                            <form action="#">
-                                                <input type="text" name="search" placeholder="Search your keyword...">
-                                                <button type="submit"><i class="fas fa-search"></i></button>
-                                            </form>
-                                        </div>-->
-                                    </div>
-                                    <!-- ltn__product-item -->
-                                    <div class="col-lg-4 col-sm-6 col-12">
-                                        <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
-                                            <div class="product-img">
-                                                <a href="LOTUS PACKAGE.html"><img src="img/rooms/3.jpeg" alt="#"></a>
-                                                
-                                            </div>
-                                            <div class="product-info">
-                                                
-                                                <h2 class="product-title"><a href="LOTUS PACKAGE.html">Lotus Package(AC Rooms)</a></h2>
-                                                
-                                                <ul class="ltn__list-item-2--- ltn__list-item-2-before--- ltn__plot-brief">
-                                                    <li><span>2 </span>
-                                                        Bedrooms
-                                                    </li>
-                                                    <li><span>1 </span>
-                                                        Bathrooms
-                                                    </li> 
-                                                </ul>   
-                                            </div>
-                                            <div class="product-info-bottom">
-                                                <div class="product-price">
-                                                    <span>Rs 2,275<label>/- with GST</label></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- ltn__product-item -->
-                                    <div class="col-lg-4 col-sm-6 col-12">
-                                        <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
-                                            <div class="product-img">
-                                                <a href="KEWADA PACKAGE.html"><img src="img/rooms/4.jpeg" alt="#"></a>
-                                                
-                                            </div>
-                                            <div class="product-info">
-                                                
-                                                <h2 class="product-title"><a href="KEWADA PACKAGE.html">Kewada Package(Non AC Rooms)</a></h2>
-                                                
-                                                <ul class="ltn__list-item-2--- ltn__list-item-2-before--- ltn__plot-brief">
-                                                    <li><span>3 </span>
-                                                        Bedrooms
-                                                    </li>
-                                                    <li><span>1 </span>
-                                                        Bathrooms
-                                                    </li> 
-                                                </ul>   
-                                            </div>
-                                            <div class="product-info-bottom">
-                                                <div class="product-price">
-                                                    <span>Rs 2,051<label>/- with GST</label></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- ltn__product-item -->
-                                    <div class="col-lg-4 col-sm-6 col-12">
-                                        <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
-                                            <div class="product-img">
-                                                <a href="KADAMB PACKAGE.html"><img src="img/rooms/1.jpeg" alt="#"></a>
-                                                
-                                            </div>
-                                            <div class="product-info">
-                                                
-                                                <h2 class="product-title"><a href="KADAMB PACKAGE.html">Kadamb Package(Non AC Bungalow)</a></h2>
-                                                
-                                                <ul class="ltn__list-item-2--- ltn__list-item-2-before--- ltn__plot-brief">
-                                                    <li><span>3 </span>
-                                                        Bedrooms
-                                                    </li>
-                                                    <li><span>1 </span>
-                                                        Bathrooms
-                                                    </li> 
-                                                </ul>   
-                                            </div>
-                                            <div class="product-info-bottom">
-                                                <div class="product-price">
-                                                    <span>Rs 1,827<label>/- with GST</label></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- ltn__product-item -->
-                                    <div class="col-lg-4 col-sm-6 col-12">
-                                        <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
-                                            <div class="product-img">
-                                                <a href="DURVA PACKAGE.html"><img src="img/rooms/2.jpeg" alt="#"></a>
-                                                
-                                            </div>
-                                            <div class="product-info">
-                                                
-                                                <h2 class="product-title"><a href="DURVA PACKAGE.html">Durva Package(Group Accommodation)</a></h2>
-                                                
-                                                <ul class="ltn__list-item-2--- ltn__list-item-2-before--- ltn__plot-brief">
-                                                    <li><span>5 </span>
-                                                        Bedrooms
-                                                    </li>
-                                                    <li><span>2 </span>
-                                                        Bathrooms
-                                                    </li> 
-                                                </ul>   
-                                            </div>
-                                            <div class="product-info-bottom">
-                                                <div class="product-price">
-                                                    <span>Rs 1,547<label>/- with GST</label></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- ltn__product-item -->
-                                   
-                                    <!--  -->
-                                </div>
-                            </div>
+                </div>
+                <div class="col-lg-7 align-self-center">
+                    <div class="about-us-info-wrap">
+                        <div class="section-title-area ltn__section-title-2--- mb-20">
+                            <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">About Room</h6>
+                            <h1 class="section-title">LOTUS PACKAGE (AC Rooms)<span>.</span></h1>
+                            <p>Discover our exclusive "Lotus Package" and elevate your Dirghayu Farms experience. 
+                                This special offer allows you to relax and save simultaneously.</p>
                         </div>
-                        <div class="tab-pane fade" id="liton_product_list">
-                            <div class="ltn__product-tab-content-inner ltn__product-list-view">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <!-- Search Widget -->
-                                        <!--<div class="ltn__search-widget mb-30">
-                                            <form action="#">
-                                                <input type="text" name="search" placeholder="Search your keyword...">
-                                                <button type="submit"><i class="fas fa-search"></i></button>
-                                            </form>
-                                        </div>-->
-                                    </div>
-                                    <!-- ltn__product-item -->
-                                    <div class="col-lg-12">
-                                        <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5">
-                                            <div class="product-img">
-                                                <a href="LOTUS PACKAGE.html"><img src="img/rooms/3.jpeg" alt="#"></a>
-                                            </div>
-                                            <div class="product-info">
-                                                <div class="product-badge-price">
-                                                    <div class="product-badge">
-                                                        <!--<ul>
-                                                            <li class="sale-badg">For Rent</li>
-                                                        </ul>-->
-                                                    </div>
-                                                    <div class="product-price">
-                                                        <span>Rs 2,275<label>/- with GST</label></span>
-                                                    </div>
-                                                </div>
-                                                <h2 class="product-title"><a href="LOTUS PACKAGE.html">Lotus Package(AC Rooms)</a></h2>
-                                                
-                                                <ul class="ltn__list-item-2--- ltn__list-item-2-before--- ltn__plot-brief">
-                                                    <li><span>2 </span>
-                                                        Bedrooms
-                                                    </li>
-                                                    <li><span>1 </span>
-                                                        Bathrooms
-                                                    </li>
-                                                    
-                                                </ul>
-                                            </div>
-                                            <div class="product-info-bottom">
-                                                <div class="real-estate-agent">
-                                                    
-                                                    <div class="agent-brief">
-                                                        <!--<h6><a href="team-details.html">William Seklo</a></h6>-->
-                                                        <h6>Enhance Your Dirghayu Farms Experience: Unwind and Save with Our Exclusive Package.</h6>
-                                                    </div>
-                                                </div>
-                                                
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- ltn__product-item -->
-                                    <div class="col-lg-12">
-                                        <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5">
-                                            <div class="product-img">
-                                                <div class="product-badge">
-                                                    <!--<ul>
-                                                        <li class="sale-badg">For Rent</li>
-                                                    </ul>-->
-                                                </div>
-                                                <a href="KEWADA PACKAGE.html"><img src="img/rooms/4.jpeg" alt="#"></a>
-                                            </div>
-                                            <div class="product-info">
-                                                <div class="product-badge-price">
-                                                    
-                                                    <div class="product-price">
-                                                        <span>Rs 2,051<label>/- with GST</label></span>
-                                                    </div>
-                                                </div>
-                                                <h2 class="product-title"><a href="KEWADA PACKAGE.html">Kewada Package (No Ac Rooms)</a></h2>
-                                                
-                                                <ul class="ltn__list-item-2--- ltn__list-item-2-before--- ltn__plot-brief">
-                                                    <li><span>3 </span>
-                                                        Bedrooms
-                                                    </li>
-                                                    <li><span>1 </span>
-                                                        Bathrooms
-                                                    </li>
-                                                    
-                                                </ul>
-                                            </div>
-                                            <div class="product-info-bottom">
-                                                <div class="real-estate-agent">
-                                                    
-                                                    <div class="agent-brief">
-                                                        <!--<h6><a href="team-details.html">William Seklo</a></h6>
-                                                        <small>Estate Agents</small>-->
-                                                        <h6>Experience the Beauty of Dirghayu Farms' Exclusive Nature Package: A Relaxing Escape Surrounded by Scented Flowers.</h6>
-                                                    </div>
-                                                </div>
-                                                
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- ltn__product-item -->
-                                    <div class="col-lg-12">
-                                        <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5">
-                                            <div class="product-badge">
-                                                <!--<ul>
-                                                    <li class="sale-badg">For Rent</li>
-                                                </ul>-->
-                                            </div>
-                                            <div class="product-img">
-                                                <a href="KADAMB PACKAGE.html"><img src="img/rooms/3.jpeg" alt="#"></a>
-                                            </div>
-                                            <div class="product-info">
-                                                <div class="product-badge-price">
-                                                    
-                                                    <div class="product-price">
-                                                        <span>Rs 1,827<label>/- with GST</label></span>
-                                                    </div>
-                                                </div>
-                                                <h2 class="product-title"><a href="KADAMB PACKAGE.html">Kadamb Package (No Ac Bungalow)</a></h2>
-                                                
-                                                <ul class="ltn__list-item-2--- ltn__list-item-2-before--- ltn__plot-brief">
-                                                    <li><span>3 </span>
-                                                        Bedrooms
-                                                    </li>
-                                                    <li><span>1 </span>
-                                                        Bathrooms
-                                                    </li>
-                                                    
-                                                </ul>
-                                            </div>
-                                            <div class="product-info-bottom">
-                                                <div class="real-estate-agent">
-                                                    
-                                                    <div class="agent-brief">
-                                                        <!--<h6><a href="team-details.html">William Seklo</a></h6>
-                                                        <small>Estate Agents</small>-->
-                                                        <h6>Unwind and Reconnect with nature at Dirghayu Farms: Your complete stay for relaxation, farm adventures, and farm-fresh delights.</h6>
-                                                    </div>
-                                                </div>
-                                                
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- ltn__product-item -->
-                                    <div class="col-lg-12">
-                                        <div class="ltn__product-item ltn__product-item-4 ltn__product-item-5">
-                                            <div class="product-img">
-                                                <a href="DURVA PACKAGE.html"><img src="img/rooms/2.jpeg" alt="#"></a>
-                                            </div>
-                                            <div class="product-info">
-                                                <div class="product-badge-price">
-                                                    
-                                                    <div class="product-price">
-                                                        <span>Rs 1,547<label>/- with GST</label></span>
-                                                    </div>
-                                                </div>
-                                                <h2 class="product-title"><a href="DURVA PACKAGE.html">Durva Package (Group Accommodation)</a></h2>
-                                                
-                                                <ul class="ltn__list-item-2--- ltn__list-item-2-before--- ltn__plot-brief">
-                                                    <li><span>5 </span>
-                                                        Bedrooms
-                                                    </li>
-                                                    <li><span>2 </span>
-                                                        Bathrooms
-                                                    </li>
-                                                    
-                                                </ul>
-                                            </div>
-                                            <div class="product-info-bottom">
-                                                <div class="real-estate-agent">
-                                                    
-                                                    <div class="agent-brief">
-                                                        <!--<h6><a href="team-details.html">William Seklo</a></h6>
-                                                        <small>Estate Agents</small>-->
-                                                        <h6>At Dirghayu Farms Agri Resort, experience the ultimate farm retreat that combines relaxation and adventure, perfect for everyone in your family.</h6>
-                                                    </div>
-                                                </div>
-                                                
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- ltn__product-item -->
-                                    
-                                    <!--  -->
-                                </div>
-                            </div>
+                        <div class="about-us-info-wrap-inner about-us-info-devide---">
+                            <p> With the Lotus Package, you'll enjoy a more enriching stay at our resort while keeping your budget in check. It's a perfect way to enhance your visit and make the most of your time amidst the serene beauty of Dirghayu Farms.
+                            </p>
+                        </div>
+                        <div class="btn-wrapper animated">
+                            <a class="theme-btn-1 btn btn-effect-1 text-uppercase">Price 2,275/-</a>
                         </div>
                     </div>
-                    <div class="ltn__shop-options">
-                        <h2>Note:<br>Child (5 - 12 Yrs.)</h2>
-                        <ul>
-                            <li> a. with extra bed  |  1190/- with GST</li>
-                            
-                        </ul>
-                        <ul>
-                            <li> b. without bed  |  966/- with GST</li>
-                            
-                        </ul>
-                    </div>
-
                 </div>
             </div>
         </div>
     </div>
-    
-    <!-- PRODUCT DETAILS AREA END -->
-    <div class="ltn__service-area section-bg-1 pt-75 pb-70">
+    <!-- ABOUT US AREA END -->
+
+    <!-- SERVICE AREA START (Service 1) -->
+   
+    <!-- SERVICE AREA END -->
+    <div class="ltn__service-area section-bg-1 pt-115 pb-70">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title-area ltn__section-title-2--- text-center">
-                        <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">Services</h6>
-                        <h1 class="section-title" style="color: black;">Our Services</h1>
+                        <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">Features</h6>
+                        <h1 class="section-title">Complimentary Food & Activites</h1>
                     </div>
                 </div>
             </div>
@@ -841,12 +440,12 @@ td{
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
                         <div class="ltn__feature-icon">
-                            <span><i class="flaticon-house"></i></span>
-                            <!-- <img src="img/icons/icon-img/21.png" alt="#"> -->
+                            <!--<span><i class="flaticon-house"></i></span>-->
+                            <img src="img\gallery\30.jpg" alt="#">
                         </div>
                         <div class="ltn__feature-info">
-                            <h3><a href="service-details.html">Room service</a></h3>
-                            <p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
+                            <h3><a href="#">Dinning Area</a></h3>
+                            
                             <!-- <a class="ltn__service-btn" href="service-details.html">Find A Home <i class="flaticon-right-arrow"></i></a> -->
                         </div>
                     </div>
@@ -854,12 +453,35 @@ td{
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
                         <div class="ltn__feature-icon">
-                            <span><i class="flaticon-mortgage"></i></span>
+                            <img src="img\gallery\42.jpg" alt="#">
                             <!-- <img src="img/icons/icon-img/21.png" alt="#"> -->
                         </div>
                         <div class="ltn__feature-info">
-                            <h3><a href="service-details.html">Resturants</a></h3>
-                            <p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
+                            <h3><a href="#">Pool</a></h3>
+                             <!-- <a class="ltn__service-btn" href="service-details.html">Find A Home <i class="flaticon-right-arrow"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
+                        <div class="ltn__feature-icon">
+                            <img src="img\gallery\46.jpg" alt="#">
+                            <!-- <img src="img/icons/icon-img/21.png" alt="#"> -->
+                        </div>
+                        <div class="ltn__feature-info">
+                            <h3><a href="#">Agriculture Tour</a></h3>
+                             <!-- <a class="ltn__service-btn" href="service-details.html">Find A Home <i class="flaticon-right-arrow"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
+                        <div class="ltn__feature-icon">
+                            <img src="img\gallery\43.jpg" alt="#">
+                            <!-- <img src="img/icons/icon-img/21.png" alt="#"> -->
+                        </div>
+                        <div class="ltn__feature-info">
+                            <h3><a href="#">Tractor Ride</a></h3>
                             <!-- <a class="ltn__service-btn" href="service-details.html">Find A Home <i class="flaticon-right-arrow"></i></a> -->
                         </div>
                     </div>
@@ -867,12 +489,11 @@ td{
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
                         <div class="ltn__feature-icon">
-                            <span><i class="flaticon-operator"></i></span>
-                            <!-- <img src="img/icons/icon-img/21.png" alt="#"> -->
+                            
+                            <img src="img\gallery\44.jpg" alt="#"> 
                         </div>
                         <div class="ltn__feature-info">
-                            <h3><a href="service-details.html">Free Parking</a></h3>
-                            <p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
+                            <h3><a href="#">Bullock-Cart Ride</a></h3>
                             <!-- <a class="ltn__service-btn" href="service-details.html">Find A Home <i class="flaticon-right-arrow"></i></a> -->
                         </div>
                     </div>
@@ -880,12 +501,11 @@ td{
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
                         <div class="ltn__feature-icon">
-                            <span><i class="flaticon-house-1"></i></span>
-                            <!-- <img src="img/icons/icon-img/21.png" alt="#"> -->
+                            <img src="img\gallery\44.jpg" alt="#">
+                            <!-- <img src="img/icons/icon-img/21.png" alt="#">-->
                         </div>
                         <div class="ltn__feature-info">
-                            <h3><a href="service-details.html">Pool</a></h3>
-                            <p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
+                            <h3><a href="#">Children's playground Area</a></h3>
                             <!-- <a class="ltn__service-btn" href="service-details.html">Find A Home <i class="flaticon-right-arrow"></i></a> -->
                         </div>
                     </div>
@@ -893,12 +513,11 @@ td{
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
                         <div class="ltn__feature-icon">
-                            <span><i class="flaticon-house-3"></i></span>
+                            <img src="img\gallery\81.jpg" alt="#">
                             <!-- <img src="img/icons/icon-img/21.png" alt="#"> -->
                         </div>
                         <div class="ltn__feature-info">
-                            <h3><a href="service-details.html">Children's playground</a></h3>
-                            <p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
+                            <h3><a href="#">Indoor Games</a></h3>
                             <!-- <a class="ltn__service-btn" href="service-details.html">Find A Home <i class="flaticon-right-arrow"></i></a> -->
                         </div>
                     </div>
@@ -906,12 +525,23 @@ td{
                 <div class="col-lg-4 col-sm-6 col-12">
                     <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
                         <div class="ltn__feature-icon">
-                            <span><i class="flaticon-official-documents"></i></span>
+                            <img src="img\gallery\56.jpg"alt="#">
                             <!-- <img src="img/icons/icon-img/21.png" alt="#"> -->
                         </div>
                         <div class="ltn__feature-info">
-                            <h3><a href="service-details.html">Escrow Services</a></h3>
-                            <p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
+                            <h3><a href="#">Outdoor Games</a></h3>
+                            <!-- <a class="ltn__service-btn" href="service-details.html">Find A Home <i class="flaticon-right-arrow"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
+                        <div class="ltn__feature-icon">
+                            <img src="img\gallery\53.jpg" alt="#">
+                            <!-- <img src="img/icons/icon-img/21.png" alt="#"> -->
+                        </div>
+                        <div class="ltn__feature-info">
+                            <h3><a href="#">OPEN GARDEN GYM</a></h3>
                             <!-- <a class="ltn__service-btn" href="service-details.html">Find A Home <i class="flaticon-right-arrow"></i></a> -->
                         </div>
                     </div>
@@ -919,122 +549,45 @@ td{
             </div>
         </div>
     </div>
-    <!-- CALL TO ACTION START (call-to-action-6) -->
+    <!-- BLOG AREA START (blog-3) -->
     
-  
-    <div class="ltn__call-to-action-area call-to-action-6 "  >
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="call-to-action-inner call-to-action-inner-6 ltn__secondary-bg position-relative text-center---"style="border-radius: 1.3rem;">
-                        <div class="coll-to-info text-color-white">
-                            <h1>One-Day Picnic Package(9.00 AM TO 6.00 PM)</h1>
-                            <div class="tbl-header">
-                                <table cellpadding="0" cellspacing="0">
-                                  <thead>
-                                    <tr>
-                                      <th>Category</th>
-                                      <th>Charges(Per Person)</th>
-                                      <th>GST Rs.</th>
-                                      <th>Total Charges Rs.</th>
-                                      
-                                    </tr>
-                                  </thead>
-                                </table>
-                              </div>
-                              <div class="tbl-content">
-                                <table cellpadding="0" cellspacing="0">
-                                  <tbody>
-                                    <tr>
-                                      <td>Adult</td>
-                                      <td>&#x20b9; 800/- </td>
-                                      <td>&#x20b9; 53/-</td>
-                                      <td>&#x20b9; 853/-</td> 
-                                    </tr>
-                                    <tr>
-                                      <td>Child (5-12 Yrs)</td>
-                                      <td>&#x20b9; 400/-</td>
-                                      <td>&#x20b9; 33/-</td>
-                                      <td>&#x20b9; 433/-</td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                              </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <hr>
+    <!-- BLOG AREA END -->
+
+    <!-- CALL TO ACTION START (call-to-action-6) -->
     <div class="ltn__call-to-action-area call-to-action-6 " >
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="call-to-action-inner call-to-action-inner-6 ltn__secondary-bg position-relative text-center---"style="border-radius: 1.3rem;">
+                    <div class="call-to-action-inner call-to-action-inner-6 ltn__secondary-bg position-relative text-center---">
                         <div class="coll-to-info text-color-white">
-                            <h1 style="font-size: 25px !important;">One-Day Picnic Package For School Childern (For Minimum 50 Students)</h1>
-                            <div class="tbl-header">
-                                <table cellpadding="0" cellspacing="0" >
-                                  <thead>
-                                    <tr>
-                                      <th>Category</th>
-                                      <th>Charges(Per Person)</th>
-                                      <th>GST Rs.</th>
-                                      <th>Total Charges Rs.</th>
-                                      
-                                    </tr>
-                                  </thead>
-                                </table>
-                              </div>
-                              <div class="tbl-content">
-                                <table cellpadding="0" cellspacing="0" >
-                                  <tbody>
-                                    <tr>
-                                      <td>CLASS (I TO IV)</td>
-                                      <td>&#x20b9; 350/- </td>
-                                      <td>&#x20b9; 30/-</td>
-                                      <td>&#x20b9; 380/-</td> 
-                                    </tr>
-                                    <tr>
-                                      <td>CLASS (V TO VII)</td>
-                                      <td>&#x20b9; 400/-</td>
-                                      <td>&#x20b9; 33/-</td>
-                                      <td>&#x20b9; 433/-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>CLASS (VIII TO X)</td>
-                                        <td>&#x20b9; 450/-</td>
-                                        <td>&#x20b9; 35/-</td>
-                                        <td>&#x20b9; 485/-</td>
-                                      </tr>
-                                  </tbody>
-                                </table>
-                              </div>
+                            <h1>Note:-</h1>
+                            <div class="ltn__shop-options">
+                                <h2>Child (5 - 12 Yrs.)</h2>
+                                <ul>
+                                    <li> a. with extra bed  |  1190/- with GST</li>
+                                    
+                                </ul>
+                                <ul>
+                                    <li> b. without bed  |  966/- with GST</li>
+                                    
+                                </ul>
+                                <hr>
+                                <div class="text">
+                                    <p>1) Details of all complimentary and paid activities with each package is mentioned clearly on our website <a href="www.dirghayufarms.com">www.dirghayufarms.com.</a></p>
+                                    <p>2) 50% advance is mandatory at the time of reservation and balance payment is to be made at reception at the time of check-in.</p>
+                                    <p>3) Check-in and check-out timing are to be followed strictly.</p>
+                                    <p>4) Identity proof for all, marriage proof for couples & age proof for childern is mandatory</p>
+                                </div>
+                            </div>
+                            
                         </div>
+                        
                     </div>
                 </div>
             </div>
-        </div>
-    </div><br>
-    <div class="ltn__product-area ltn__product-gutter mb-50">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="ltn__shop-options">
-                        <h2>Note:</h2>
-                        <div class="text">
-                            <p>1) Details of all complimentary and paid activities with each package is mentioned clearly on our website <a href="www.dirghayufarms.com">www.dirghayufarms.com.</a></p>
-                            <p>2) 50% advance is mandatory at the time of reservation and balance payment is to be made at reception at the time of check-in.</p>
-                            <p>3) Check-in and check-out timing are to be followed strictly.</p>
-                            <p>4) Identity proof for all, marriage proof for couples & age proof for childern is mandatory</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </div>
-    
     <!-- CALL TO ACTION END -->
 
     <!-- FOOTER AREA START -->
@@ -1163,18 +716,6 @@ td{
         </div>
     </footer>
     <!-- FOOTER AREA END -->
-
-    <!-- MODAL AREA START (Quick View Modal) -->
-   
-    <!-- MODAL AREA END -->
-
-    <!-- MODAL AREA START (Add To Cart Modal) -->
-    
-    <!-- MODAL AREA END -->
-
-    <!-- MODAL AREA START (Wishlist Modal) -->
-   
-    <!-- MODAL AREA END -->
 
 </div>
 <!-- Body main wrapper end -->
