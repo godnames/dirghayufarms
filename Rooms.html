@@ -73,11 +73,22 @@ td{
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
 }
 </style>
+<style>.whatsapp-icon {
+    position: fixed;
+    left: 50px;
+    bottom: 40px;
+    width: 70px;
+    height: 70px;
+    z-index: 999;}</style>
 <body>
     <!--[if lte IE 9]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
-
+<!--Whatapp -->
+<a href="https://wa.me/+919867679000" class="whatsapp-icon" onclick="openWhatsAppChat()" style="display: inline-flex; align-items: center; text-decoration: none;">
+    <img src="img/whatsapp.png" alt="WhatsApp Icon" style="vertical-align: middle;">
+    
+</a>
     <!-- Add your site or application content here -->
 
 <!-- Body main wrapper start -->
@@ -185,7 +196,7 @@ td{
                                                 <li><a href="locations.html">Google Map Locations</a></li>
                                             </ul>-->
                                         </li>
-                                        <li><a href="Activites.html">Activities</a>
+                                        <!--<li><a href="Activites.html">Activities</a>-->
                                             <!--<ul>
                                                 <li><a href="shop.html">Property Grid</a></li>
                                                 <li><a href="shop-list.html">Property List</a></li>
@@ -205,7 +216,7 @@ td{
                                                     </ul>
                                                 </li>
                                             </ul>-->
-                                        </li>
+                                        
                                         <li><a href="Events.html">Weddings & Functions</a>
                                             <!--<ul>
                                                 <li><a href="blog.html">News</a></li>
@@ -330,7 +341,7 @@ td{
                             <li><a href="locations.html">Google Map Locations</a></li>
                         </ul>-->
                     </li>
-                    <li><a href="Activites.html">Activities</a>
+                    <!--<li><a href="Activites.html">Activities</a>-->
                         <!--<ul>
                             <li><a href="shop.html">Property Grid</a></li>
                             <li><a href="shop-list.html">Property List</a></li>
@@ -350,7 +361,7 @@ td{
                                 </ul>
                             </li>
                         </ul>-->
-                    </li>
+                    
                     <li><a href="Events.html">Weddings & Functions</a>
                         <!--<ul>
                             <li><a href="blog.html">News</a></li>
@@ -424,12 +435,12 @@ td{
     <div class="ltn__utilize-overlay"></div>
 
     <!-- BREADCRUMB AREA START -->
-    <div class="ltn__breadcrumb-area text-left bg-overlay-white-30" >
+    <div class="ltn__breadcrumb-area text-left bg-overlay-white-30 bg-image  " data-bs-bg="img/3.png">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="ltn__breadcrumb-inner">
-                        <h1 class="page-title">Our Rooms</h1>
+                        <h2 class="page-title">Our Rooms</h2>
                         <div class="ltn__breadcrumb-list">
                             <ul>
                                 <li><a href="index.html"><span class="ltn__secondary-color"><i class="fas fa-home"></i></span> Home</a></li>
@@ -1110,7 +1121,7 @@ td{
                             <h4 class="footer-title">Services</h4>
                             <div class="footer-menu">
                                 <ul>
-                                    <li><a href="locations.html">Activities</a></li>
+                                    
                                     <li><a href="locations.html">Events</a></li>
                                     <li><a href="locations.html">Weddings & Functions</a></li>
 
