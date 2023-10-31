@@ -110,6 +110,37 @@
             height: 70px;
             z-index: 999;}
             </style>
+            <style>
+               #date {
+                margin: 0;
+                height: 60px;
+                line-height: 58px;
+                padding-right: 40px;
+                padding-left: 20px;
+                border-radius: 0;
+                min-width: 200px;
+                font-size: 16px;
+                font-weight: 500;
+                font-family: var(--ltn__heading-font);
+                width: 100%;
+                }
+                #date{
+                    -webkit-tap-highlight-color: transparent;
+    background-color: #fff;
+    border: solid 1px #e8e8e8;
+    box-sizing: border-box;
+    clear: both;
+    cursor: pointer;
+    display: block;
+    float: left;
+    outline: 0;
+    position: relative;
+    text-align: left !important;
+    transition: all .2s ease-in-out;
+    user-select: none;
+    white-space: nowrap;
+}
+            </style>
 </head>
 
 <body>
@@ -572,11 +603,12 @@
                                             </select>
                                             </div>
                                             <div class="ltn__car-dealer-form-item ltn__custom-icon---- ltn__icon-meter---- col-lg-3 col-md-6">
-                                                <select class="nice-select">
-                                                <option><p>Date of visit
-                                                    <input id="date" type="date">
-                                                </p></option>
                                                 
+                                                <div class="btn-wrapper text-center mt-0">
+                                                    
+                                                    <!-- <button type="submit" class="btn theme-btn-1 btn-effect-1 text-uppercase">Search Inventory</button> -->
+                                                    <input id="date" type="date" placeholder="Date of visit">
+                                                </div>
                                             </div>
                                             <div class="ltn__car-dealer-form-item ltn__custom-icon---- ltn__icon-calendar---- col-lg-3 col-md-6">
                                                 <select class="nice-select">
