@@ -484,37 +484,49 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="input-item input-item-name ltn__custom-icon">
-                                        <input type="text" name="name" placeholder="Enter your name">
+                                        <input type="text" id="name" name="name" placeholder="Enter your name">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="input-item input-item-email ltn__custom-icon">
-                                        <input type="email" name="email" placeholder="Enter email address">
+                                        <input type="email" id="email" name="email" placeholder="Enter email address">
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-6">
+                                    <div class="input-item input-item-phone ltn__custom-icon">
+                                        <input type="text" id="phone" name="phone" placeholder="Enter phone number">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="input-item">
-                                        <select class="nice-select">
-                                            <option>Activites</option>
-                                            <option>Famliy Functions</option>
-                                            <option>School Picnic </option>
-                                            <option>Wedding</option>
-                                            <option></option>
+                                        <select class="nice-select" id="service">
+                                            <option>Age Group</option>
+                                            <option>Child (5-12 Yrs)</option>
+                                            <option>Teenager(12-18yrs) </option>
+                                            <option>Adults(18+yrs)</option>
+                                            
                                         </select>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="input-item input-item-phone ltn__custom-icon">
-                                        <input type="text" name="phone" placeholder="Enter phone number">
+                                    <div class="input-item">
+                                        <select class="nice-select1" id="service1">
+                                            <option>Room</option>
+                                            <option>Lotus Package</option>
+                                            <option>Kewada Package</option>
+                                            <option>Kadamb Package</option>
+                                            <option>Durva Package</option>
+                                        </select>
                                     </div>
                                 </div>
                             </div>
                             <div class="input-item input-item-textarea ltn__custom-icon">
-                                <textarea name="message" placeholder="Special Requirements"></textarea>
+                                <textarea name="message" id="message" placeholder="Special Requirements"></textarea>
                             </div>
                             <!--<p><label class="input-info-save mb-0"><input type="checkbox" name="agree"> Save my name, email, and website in this browser for the next time I comment.</label></p>-->
                             <div class="btn-wrapper mt-0">
-                                <button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">Sumbit</button>
+                                <button class="btn theme-btn-1 btn-effect-1 text-uppercase" onclick="gotowhatsapp()" type="submit">Sumbit</button>
                             </div>
                             <p class="form-messege mb-0 mt-20"></p>
                         </form>
@@ -660,7 +672,27 @@
     <script src="js/contact.js"></script>
     <!-- Main JS -->
     <script src="js/main.js"></script>
-  
+    <script>
+        function gotowhatsapp() {
+
+            var name = document.getElementById("name").value;
+            
+            var email = document.getElementById("email").value;
+            var phone = document.getElementById("phone").value;
+            var service = document.getElementById("service").value;
+            var service1 = document.getElementById("service1").value;
+
+            var url = "https://wa.me/9769787635?text="
+                + "Name: " + name + "%0a"
+                
+                + "Email: " + email + "%0a"
+                + "Phone: " + phone + "%0a"
+                + "Service: " + service + "%0a"
+                + "Service: " + service1;
+
+            window.open(url, '_blank').focus();
+        }
+    </script>
 </body>
 </html>
 
